@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+zenity --question\
+    --title="Reboot"\
+    --text="Really want to reboot?"\
+    --ok-label="Reboot"\
+    --cancel-label="Keep Running" \
+    --icon="system-reboot"\
+    --default-cancel\
+    && systemctl reboot
