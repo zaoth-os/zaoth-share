@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Sway
+Comment=Wayland compositor
+Exec=sway -c /etc/sway/config
+Type=Application
+DesktopNames=sway
