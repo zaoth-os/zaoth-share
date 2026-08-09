@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-cp -r ./share /usr/
+cp -r $(dirname "${BASH_SOURCE[0]}")/share /usr/
