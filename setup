@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+_TO="/usr/share/"
+_FROM="src/share/"
+
+install-src() {
+	mkdir -p $_TO
+	sudo cp -r $_FROM $_TO
+}
