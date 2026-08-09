@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-_LOCAL="$(dirname $(realpath "${BASH_SOURCE[0]}"))"
-_TO="/usr/share/"
-_FROM="$_LOCAL/src/share/"
+from_src="$(dirname $(realpath "${BASH_SOURCE[0]}"))/src/share"
+to_src="/usr/share"
+
 
